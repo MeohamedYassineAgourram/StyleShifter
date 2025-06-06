@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style Shifter</title>
+    <link rel="stylesheet" href="./styles/Login.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER ------------------------------------------------------------------------------------------------------------------------------------------------->
+    <header class="header">
+      <!-- LOGO & NAME ---------------------------------------------------------------------->
+      <div class="logo" onclick="location.href='index.html'">
+        <img src="./src/Style_Shifter_Logo.png" />
+        <h2>Style Shifter</h2>
+      </div>
+
+      <!-- SIDEBAR MENU --------------------------------------------------------------------->
+      <nav class="navbar sidebar">
+        <div class="exit-icon" onclick="hideSidebar()">
+          <i class="fas fa-times"></i>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="index.html">About</a>
+        <a href="index.html">Services</a>
+        <a href="index.html">Contact</a>
+        <button class="sign-up">Sign Up</button>
+        <button class="sign-in">Sign In</button>
+      </nav>
+
+      <!-- NAVBAR --------------------------------------------------------------------------->
+      <nav class="navbar">
+        <a href="index.html" class="hideOnSmallScreen">Home</a>
+        <a href="index.html" class="hideOnSmallScreen">About</a>
+        <a href="index.html" class="hideOnSmallScreen">Services</a>
+        <a href="index.html" class="hideOnSmallScreen">Contact</a>
+        <button class="sign-up hideOnMobile">Sign Up</button>
+        <button class="sign-in hideOnMobile">Sign In</button>
+        <div class="menu-icon" onclick="showSidebar()">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN ------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="container">
+      <div class="form-box">
+        <form action="">
+          <h2>Get a Demo</h2>
+          <input
+            type="text"
+            name="first-name"
+            placeholder="First Name"
+            required
+          />
+          <input
+            type="text"
+            name="last-name"
+            placeholder="Last Name"
+            required
+          />
+          <input type="email" name="email" placeholder="Email" required />
+          <input type="text" name="company" placeholder="Company" required />
+          <input
+            type="text"
+            name="message"
+            placeholder="Message"
+            id="message"
+          />
+
+          <button type="submit" name="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- FOOTER ---------------------------------------------------------------------------------------------------------------------------------------------------->
+    <footer>
+      <div class="right-side">
+        <img src="./src/Style_Shifter_Logo.png" />
+        <div>
+          <a
+            href="https://styleshifter.app/privacy-policy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Privacy Policy</a
+          >
+          <a
+            href="https://styleshifter.app/terms-of-use/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Terms of Use</a
+          >
+          <a
+            href="https://styleshifter.app/faq/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >FAQ</a
+          >
+        </div>
+      </div>
+
+      <div class="left-side">
+        <div>
+          <button class="sign-up">Sign Up</button>
+          <button class="sign-in">Sign In</button>
+        </div>
+
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/company/style-shifter"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/styleshifterai"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/styleshifter_app/?igsh=MzRlODBiNWFlZA%3D%3D#"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" target="_blank" rel="noopener noreferrer"
+            ><i class="fab fa-x-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script/Login.js"></script>
+  </body>
+</html>
